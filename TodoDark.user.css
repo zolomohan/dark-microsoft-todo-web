@@ -1,0 +1,54 @@
+@-moz-document domain("todo.microsoft.com") {
+  .ms-Dialog-main {
+    box-shadow: none;
+  }
+
+  .taskItem.selected .taskItem-body,
+  .step.selected {
+    background-color: #12121212;
+  }
+
+  #app,
+  #appLauncher,
+  #O365fpcontainerid,
+  #toDoSearchBox_container,
+  .ms-Dialog-main.modal,
+  .ms-ContextualMenu-Callout {
+      filter: invert(0.93);
+  }
+
+  /* Menu Hamburger */
+  .menu i,
+  /* Task Checkbox*/
+  .checkBox,
+  /* Title of the List in App */
+  .listTitle,
+  /* Icons in Apps */
+  .ms-svg-Icon,
+  /* Add Icon in List Add */
+  .baseAdd-icon,
+  /* Add Group at the Bottom of Sidebar */
+  .addGroup-icon,
+  /* List Icon Sidebar */
+  .listItem-icon i,
+  /* List Theme Picker Color*/
+  .themePicker-color,
+  /* Important Star in Tasks */
+  .importanceButton,
+  /* Actions above List */
+  .toolbarButton-inner,
+  .ms-Icon.ms-Icon--BulletedList2,
+  /* Search Bar */
+  .searchToolbar-icon.search,
+  .searchToolbar-inputWrapper i,
+  .baseAdd-button,
+  /* Modal */
+  .modal-footer .button-group .button.red,
+  /* My Account Links */
+  #meControlLinks,
+  #baseAddInput-addList,
+  #baseAddInput-addTask,
+  #baseAddInput-addStep {
+    filter: invert(1);
+  }
+}
