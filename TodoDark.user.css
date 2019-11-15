@@ -1,13 +1,23 @@
 @-moz-document domain("to-do.microsoft.com") {
+  /* Modals */
   .ms-Dialog-main {
     box-shadow: none;
   }
 
+  /* Emoji */
+  .listItem-container.active .emoji.medium,
+  .emoji.medium{
+    background-color: transparent !important;
+  }
+
+  /* User Avatar Toolbar Right Corner */
   #O365_MainLink_Me:not(.o365sx-activeButton){
     background-color: #ff8728 !important;
   }
 
-  .taskItem.selected .taskItem-body,
+  /* Task List Task */
+  .taskItem.selected .taskItem-body
+  /* Steps in Task Details Sidebar */
   .step.selected {
     background-color: #12121212;
   }
@@ -16,12 +26,29 @@
   #appLauncher,
   #O365fpcontainerid,
   #toDoSearchBox_container,
+  /* User Avatar Toolbar Right Corner */
   #O365_HeaderRightRegion,
+  /* Suggestion Sidebar */
+  .ms-Panel-main,
+  /* Modals */
   .ms-Dialog-main.modal,
-  .ms-ContextualMenu-Callout {
+  /* Context Menus */
+  .ms-ContextualMenu-Callout,
+  /* Sort Menu */
+  .popover.bottom{
     filter: invert(0.93);
   }
 
+  /* Task List Title Edit Input */
+  .tasksToolbar-titleItem input,
+  /* Emojis */
+  .emoji.small,
+  .emoji.medium,
+  /* Today Suggestion Container */
+  .addSuggestionButton,
+  .moreEntriesButton,
+  .sidePanel-header .backButton,
+  /* Drag Preview */
   .dragPreview,
   /* Calender Menu Save Button */
   .custom-actions button,
