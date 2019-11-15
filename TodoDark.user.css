@@ -16,7 +16,7 @@
   }
 
   /* Task List Task */
-  .taskItem.selected .taskItem-body
+  .taskItem.selected .taskItem-body,
   /* Steps in Task Details Sidebar */
   .step.selected {
     background-color: #12121212;
