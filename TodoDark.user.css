@@ -3,6 +3,10 @@
     box-shadow: none;
   }
 
+  #O365_MainLink_Me:not(.o365sx-activeButton){
+    background-color: #ff8728 !important;
+  }
+
   .taskItem.selected .taskItem-body,
   .step.selected {
     background-color: #12121212;
@@ -12,11 +16,14 @@
   #appLauncher,
   #O365fpcontainerid,
   #toDoSearchBox_container,
+  #O365_HeaderRightRegion,
   .ms-Dialog-main.modal,
   .ms-ContextualMenu-Callout {
-      filter: invert(0.93);
+    filter: invert(0.93);
   }
 
+  /* User Avatar */
+  ._1fH43YlMAnPCr8RI9qH98P,
   /* Link in App Launcher */
   .OnUCasaPYqgO7yhEzsyuC,
   .qXtKVA0JDCaTuFL6XJNLA,
