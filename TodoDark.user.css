@@ -8,11 +8,19 @@
     background: none;
   }
 
+  .addGroup-icon:hover{
+    border: none;
+  }
+
+  .details .section-item.detailNote.edit{
+    border-color: #cb9010 !important;
+  }
+
   /* Input Colors */
   #baseAddInput-addTask,
   #baseAddInput-addStep,
   #baseAddInput-addList{
-      color: #d6d6d6;
+    color: #d6d6d6;
   }
 
   /* Appbar Buttons */
@@ -38,7 +46,6 @@
   .whatsNewCharm.o365sx-button:not(.o365sx-activeButton){
     background-color: transparent !important;
   }
-
 
   #app,
   /* Office 365 Apps */
@@ -92,7 +99,7 @@
   /* List Item Count */
   .listItem-count,
   /* Add Group at the Bottom */
-  .addGroup-icon,
+  .addGroup-icon i,
   /* New List */
   #baseAddInput-addList,
 
@@ -124,6 +131,8 @@
   .section-item.isSet button,
   /* Add Step */
   #baseAddInput-addStep,
+  /* File Thumbnail */
+  .link.section-item.file-item div.thumbnail-wrapper,
 
   /* Announcements --------------------------- */
 
@@ -131,7 +140,6 @@
   .macAppUpsellCard img,
   /* Button & Social Media Icons */
   .macAppUpsellCard-text a,
-
 
   /* Today Suggestion ------------------------ */
 
@@ -177,7 +185,9 @@
   /* Modal */
   .modal-footer .button-group .button.red,
   /* Share Invitaion Modal Button */
-  .button.loadingButton.createShareLink{
+  .button.loadingButton.createShareLink,
+  .ms-Icon.ms-Icon--Delete,
+  .ms-Icon.ms-Icon--Delete + span{
     filter: invert(1);
   }
 }
