@@ -8,8 +8,16 @@
     background: none;
   }
 
-  #owaSettingsButton div span,
+  /* Input Colors */
+  #baseAddInput-addTask,
+  #baseAddInput-addStep,
+  #baseAddInput-addList{
+      color: #d6d6d6;
+  }
+
+  /* Appbar Buttons */
   #owaToDoButton div span,
+  #owaSettingsButton div span,
   .whatsNewCharm.o365sx-button i{
     color: #000 !important;
   }
@@ -61,6 +69,7 @@
   /* Links */
   .OnUCasaPYqgO7yhEzsyuC,
   .qXtKVA0JDCaTuFL6XJNLA,
+  .AEPGHdAvYHd9zEd_3gO6s:hover ._25rvrJdB6X_ovt33L8OiwD._3klUQuUGmmujRe-cBHlOcX,
   /* Icons */
   .ms-svg-Icon,
 
