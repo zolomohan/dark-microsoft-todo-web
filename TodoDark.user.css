@@ -5,26 +5,23 @@
   }
 
   /* Emoji */
+  .emoji.medium,
   .listItem-container.active .emoji.medium,
-  .emoji.medium{
+  /* Task */
+  .taskItem.selected .taskItem-body,
+  /* Steps in Task Details */
+  .step.selected,
+  /* User Avatar Toolbar Right Corner */
+  #O365_MainLink_Me:not(.o365sx-activeButton){
     background-color: transparent !important;
   }
 
-  /* User Avatar Toolbar Right Corner */
-  #O365_MainLink_Me:not(.o365sx-activeButton){
-    background-color: #ff8728 !important;
-  }
-
-  /* Task List Task */
-  .taskItem.selected .taskItem-body,
-  /* Steps in Task Details Sidebar */
-  .step.selected {
-    background-color: #12121212;
-  }
-
   #app,
+  /* Office 365 Apps */
   #appLauncher,
+  /* My Account */
   #O365fpcontainerid,
+  /* Search in Appbar */
   #toDoSearchBox_container,
   /* User Avatar Toolbar Right Corner */
   #O365_HeaderRightRegion,
@@ -39,63 +36,93 @@
     filter: invert(0.93);
   }
 
+  /* App Launcher --------------------------- */
+
+  /* Links */
+  .OnUCasaPYqgO7yhEzsyuC,
+  .qXtKVA0JDCaTuFL6XJNLA,
+  /* Icons */
+  .ms-svg-Icon,
+
+  /* Appbar --------------------------------- */
+
+  /* User Avatar */
+  ._1fH43YlMAnPCr8RI9qH98P,
+  /* Search Bar */
+  .searchToolbar-icon.search,
+  .searchToolbar-inputWrapper i,
+
+  /* Sidebar -------------------------------- */
+
+  /* Hamburger */
+  .menu i,
+  /* List Icon */
+  .listItem-icon i,
+  /* List Item Count */
+  .listItem-count,
+  /* Add Group at the Bottom */
+  .addGroup-icon,
+  /* New List */
+  #baseAddInput-addList,
+
+  /* Todo Section --------------------------- */
+
+  /* Actions above List */
+  .toolbarButton-inner,
+  /* Title of the List */
+  .listTitle,
   /* Task List Title Edit Input */
   .tasksToolbar-titleItem input,
-  /* Emojis */
-  .emoji.small,
-  .emoji.medium,
-  /* Today Suggestion Container */
+  /* Task Checkbox */
+  .checkBox,
+  /* Task Info */
+  .taskItemInfo-date,
+  .taskItemInfo-myDay,
+  /* Task Imporatant Star */
+  .importanceButton,
+  /* Add Icon in List Add & Task Add */
+  .baseAdd-icon,
+  /* Task Input */
+  #baseAddInput-addTask,
+
+  /* Task Details ---------------------------- */
+
+  /* Step Add Button */
+  .baseAdd-button,
+  /* Details Tiles */
+  .section-item.isSet button,
+  /* Add Step */
+  #baseAddInput-addStep,
+
+  /* Announcements --------------------------- */
+
+  /* Mac Todo Image */
+  .macAppUpsellCard img,
+
+
+  /* Today Suggestion ------------------------ */
   .addSuggestionButton,
   .moreEntriesButton,
   .sidePanel-header .backButton,
+
+  /* My Account ------------------------------ */
+
+  /* My Account Links */
+  #meControlLinks,
+
+  /* Misc ------------------------------------ */
+
+  /* Emojis */
+  .emoji.small,
+  .emoji.medium,
   /* Drag Preview */
   .dragPreview,
   /* Calender Menu Save Button */
   .custom-actions button,
-  /* List Item Count */
-  .listItem-count,
-  /* Task Info */
-  .taskItemInfo-date,
-  .taskItemInfo-myDay,
-  /* Task Details Pane Section */
-  .section-item.isSet button,
-  /* User Avatar */
-  ._1fH43YlMAnPCr8RI9qH98P,
-  /* Link in App Launcher */
-  .OnUCasaPYqgO7yhEzsyuC,
-  .qXtKVA0JDCaTuFL6XJNLA,
-  /* Menu Hamburger */
-  .menu i,
-  /* Task Checkbox*/
-  .checkBox,
-  /* Title of the List in App */
-  .listTitle,
-  /* Icons in Apps */
-  .ms-svg-Icon,
-  /* Add Icon in List Add */
-  .baseAdd-icon,
-  /* Add Group at the Bottom of Sidebar */
-  .addGroup-icon,
-  /* List Icon Sidebar */
-  .listItem-icon i,
   /* List Theme Picker Color*/
   .themePicker-color,
-  /* Important Star in Tasks */
-  .importanceButton,
-  /* Actions above List */
-  .toolbarButton-inner,
-  .ms-Icon.ms-Icon--BulletedList2,
-  /* Search Bar */
-  .searchToolbar-icon.search,
-  .searchToolbar-inputWrapper i,
-  .baseAdd-button,
   /* Modal */
-  .modal-footer .button-group .button.red,
-  /* My Account Links */
-  #meControlLinks,
-  #baseAddInput-addList,
-  #baseAddInput-addTask,
-  #baseAddInput-addStep {
+  .modal-footer .button-group .button.red{
     filter: invert(1);
   }
 }
