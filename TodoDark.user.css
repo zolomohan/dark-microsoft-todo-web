@@ -18,7 +18,9 @@
   /* Appbar Buttons */
   #owaToDoButton div span,
   #owaSettingsButton div span,
-  .whatsNewCharm.o365sx-button i{
+  .whatsNewCharm.o365sx-button i,
+  /* List Item Text */
+  .listItem-container.active div div .listItem-title .listItem-titleParsed span{
     color: #000 !important;
   }
 
