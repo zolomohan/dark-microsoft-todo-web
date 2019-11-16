@@ -98,6 +98,8 @@
 
   /* Mac Todo Image */
   .macAppUpsellCard img,
+  /* Button & Social Media Icons */
+  .macAppUpsellCard-text a,
 
 
   /* Today Suggestion ------------------------ */
@@ -105,9 +107,15 @@
   .moreEntriesButton,
   .sidePanel-header .backButton,
 
+  /* Help ------------------------------------ */
+  /* Links */
+  .settingsSection-body a,
+  /* Sync Now Button */
+  .sync-wrapper button,
+
   /* My Account ------------------------------ */
 
-  /* My Account Links */
+  /* Links */
   #meControlLinks,
 
   /* Misc ------------------------------------ */
