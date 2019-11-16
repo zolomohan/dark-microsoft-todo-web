@@ -4,6 +4,10 @@
     box-shadow: none;
   }
 
+  .button.plain:hover{
+    background: none;
+  }
+
   /* Emoji */
   .emoji.medium,
   .listItem-container.active .emoji.medium,
@@ -103,15 +107,29 @@
 
 
   /* Today Suggestion ------------------------ */
+
   .addSuggestionButton,
   .moreEntriesButton,
   .sidePanel-header .backButton,
 
   /* Help ------------------------------------ */
-  /* Links */
+
+  /* Links in Settings & Help */
   .settingsSection-body a,
   /* Sync Now Button */
   .sync-wrapper button,
+
+  /* Settings -------------------------------- */
+
+  /* Wunderlist Icon */
+  .icon.svgIcon.wunderlist-24.wunderlist-24-red,
+  /* Import Button */
+  .button.blue.importer-button,
+  /* Toggle Switch */
+  .ms-Toggle.is-checked div button,
+  /* Todo Logo */
+  .settingsAboutSection-logo,
+  .button.plain,
 
   /* My Account ------------------------------ */
 
