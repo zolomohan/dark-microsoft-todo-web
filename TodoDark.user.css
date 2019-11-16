@@ -8,6 +8,12 @@
     background: none;
   }
 
+  #owaSettingsButton div span,
+  #owaToDoButton div span,
+  .whatsNewCharm.o365sx-button i{
+    color: #000 !important;
+  }
+
   /* Emoji */
   .emoji.medium,
   .listItem-container.active .emoji.medium,
@@ -16,9 +22,13 @@
   /* Steps in Task Details */
   .step.selected,
   /* User Avatar Toolbar Right Corner */
-  #O365_MainLink_Me:not(.o365sx-activeButton){
+  #O365_MainLink_Me:not(.o365sx-activeButton),
+  #owaToDoButton:not(.o365sx-activeButton),
+  #owaSettingsButton:not(.o365sx-activeButton),
+  .whatsNewCharm.o365sx-button:not(.o365sx-activeButton){
     background-color: transparent !important;
   }
+
 
   #app,
   /* Office 365 Apps */
@@ -27,8 +37,14 @@
   #O365fpcontainerid,
   /* Search in Appbar */
   #toDoSearchBox_container,
-  /* User Avatar Toolbar Right Corner */
+  /* User Avatar Appbar Right Corner */
   #O365_HeaderRightRegion,
+  /* Help Button Appbar */
+  #owaToDoButton,
+  /* Setting Button Appbar */
+  #owaSettingsButton,
+  /* Announcement Toolbar Button */
+  .whatsNewCharm.o365sx-button,
   /* Suggestion Sidebar */
   .ms-Panel-main,
   /* Modals */
@@ -148,7 +164,9 @@
   /* List Theme Picker Color*/
   .themePicker-color,
   /* Modal */
-  .modal-footer .button-group .button.red{
+  .modal-footer .button-group .button.red,
+  /* Share Invitaion Modal Button */
+  .button.loadingButton.createShareLink{
     filter: invert(1);
   }
 }
