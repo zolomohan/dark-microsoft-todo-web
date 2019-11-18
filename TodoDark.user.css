@@ -12,6 +12,8 @@
     border: none;
   }
 
+  .lineCursor.lineCursorTop:before,
+  .lineCursor.lineCursorBottom:before,
   .details .section-item.detailNote.edit{
     border-color: #cb9010 !important;
   }
@@ -20,7 +22,7 @@
   #baseAddInput-addTask,
   #baseAddInput-addStep,
   #baseAddInput-addList{
-    color: #d6d6d6;
+    color: #b9b9b9;
   }
 
   /* Appbar Buttons */
@@ -144,8 +146,8 @@
   /* Today Suggestion ------------------------ */
 
   .addSuggestionButton,
-  .moreEntriesButton,
-  .sidePanel-header .backButton,
+  .moreEntriesButton span,
+  .sidePanel-header .backButton i,
 
   /* Help ------------------------------------ */
 
