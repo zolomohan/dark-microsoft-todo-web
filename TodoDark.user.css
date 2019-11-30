@@ -1,7 +1,16 @@
 @-moz-document domain("to-do.microsoft.com") {
+  .ms-Panel-main,  
   /* Modals */
   .ms-Dialog-main {
     box-shadow: none;
+  }
+
+  body{
+    background-color: #121212;
+  }
+
+  .ms-Panel-main {
+    border-left: 1px solid #dadada;
   }
 
   .button.plain:hover{
